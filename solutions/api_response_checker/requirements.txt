@@ -1,0 +1,14 @@
+# API Response Quality Checker Dependencies
+
+# Claude API client
+anthropic>=0.39.0
+
+# JSON schema validation
+jsonschema>=4.20.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# Optional: Testing dependencies
+pytest>=7.4.0
+pytest-cov>=4.1.0

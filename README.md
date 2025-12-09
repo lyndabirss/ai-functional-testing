@@ -1,63 +1,98 @@
-# AI Functional Testing Examples and Patterns
+# AI Functional Testing - Modular Quality Intelligence Solutions
 
-A collection of automated functional testing examples demonstrating practical approaches to testing AI systems and applications.
+A collection of modular, reusable components for intelligent quality testing of AI systems and applications.
 
-## About This Project
+## Approach: Quality Intelligence
 
-This repository contains functional test examples for various AI services and applications. The goal is to explore different testing patterns, build reusable test frameworks, and document effective approaches to QA in AI-powered systems.
+Combining automated validation with AI-powered analysis to catch quality issues that traditional testing methods and structures miss - like contextually inappropriate data, logical inconsistencies, and integration gaps.
 
-## What's Included
+**Modular Architecture:**
+- Reusable core components
+- Standalone solutions that can be combined
+- Build once, use everywhere
 
-*Coming soon - initial test examples in development*
+---
 
-- API testing examples for AI services
-- Functional test patterns for LLM applications
-- Test automation framework setup and configuration
-- Documentation of testing approaches and learnings
+## Modular Design Philosophy
+
+### Core Principles:
+1. **Reusability** - Components designed to be used across solutions
+2. **Modularity** - Each solution stands alone but can combine with others
+3. **Intelligence** - AI augments validation, doesn't replace it
+4. **Extensibility** - Initial design doesn't restrict future applications
+
+### Planned Architecture:
+- **Core modules** - Reusable validation, analysis, and helper components
+- **Solutions** - Specific implementations (API checker, UI validator, etc.)
+- **Workflows** - Orchestrations combining multiple solutions
+
+---
+
+## Development Approach
+
+I'm transparent about using AI (Claude) as a development partner. This approach:
+- Lets me focus on quality problems and solution design
+- Implements solutions efficiently
+- Follows the same principle as low-code/no-code QA tools
+- Multiplies what a QA engineer can accomplish
+
+I achieved significant productivity improvements in previous QA work using tool-augmented approaches. This project applies that same principle using AI for development.
+
+---
 
 ## Technologies Used
 
-- **Python 3.x**
-- **Pytest** - Testing framework
-- **Requests** - API testing
-- Additional libraries as needed for specific test scenarios
+- **Python 3.8+**
+- **Anthropic Claude API** - Intelligent quality assessment
+- **jsonschema** - Structure validation
+- **pytest** - Testing framework
+- **python-dotenv** - Environment management
 
-## Setup
+---
+
+## Getting Started
+
+### Prerequisites
+- Python 3.8 or higher
+- Anthropic API key ([get one here](https://console.anthropic.com/))
+
+### Installation
+
 ```bash
 # Clone the repository
 git clone https://github.com/lyndabirss/ai-functional-testing.git
-
-# Navigate to project directory
 cd ai-functional-testing
 
-# Create virtual environment
+# Create and activate virtual environment
 python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Activate virtual environment
-# On Windows:
-venv\Scripts\activate
-# On Mac/Linux:
-source venv/bin/activate
-
-# Install dependencies
+# Install dependencies for specific solutions
+cd solutions/<solution-name>
 pip install -r requirements.txt
 ```
 
-## Running Tests
-```bash
-# Run all tests
-pytest
-
-# Run with verbose output
-pytest -v
-
-# Run specific test file
-pytest tests/test_example.py
-```
+---
 
 ## Project Status
 
-🚧 **Work in Progress** - Actively building out test examples and patterns
+🚧 **Active Development** - Building modular solutions for intelligent quality testing
+
+---
+
+## Vision: Quality Intelligence
+
+The future of quality engineering is **Quality Intelligence** - where tests don't just run, they understand context. Where automation isn't just about execution, but about intelligent analysis.
+
+This repository explores that evolution:
+- Context-aware validation (not just structure checking)
+- Confidence scoring (not just pass/fail)
+- Semantic analysis (not just syntax validation)
+- Business logic assessment (not just technical correctness)
+
+Different organizations are at different stages with AI in quality processes. This project provides practical, modular tools that can augment existing quality setups.
+
+---
 
 ## License
 

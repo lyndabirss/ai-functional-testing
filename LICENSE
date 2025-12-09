@@ -1,6 +1,31 @@
+# 📄 AI Functional Testing
+
+Modular Quality Intelligence Solutions for AI Systems Testing
+
+![Status](https://img.shields.io/badge/status-active-success)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![AI](https://img.shields.io/badge/AI-Claude%204-orange)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+**Author:** Lynda M Birss  
+**Created:** December 2025  
+**Type:** Personal Portfolio Project
+
+---
+
+## 🔧 Problem → Solution → Result
+
+**Problem:** Traditional testing methods miss contextually inappropriate data, logical inconsistencies, and integration gaps.
+
+**Solution:** Modular tools combining automated validation with AI-powered quality analysis.
+
+**Result:** Catches quality issues that would normally require manual QA review, making testing more efficient and effective.
+
+---
+
 MIT License
 
-Copyright (c) 2025 lyndabirss
+Copyright (c) 2025 Lynda M Birss
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
